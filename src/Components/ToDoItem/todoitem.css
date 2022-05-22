@@ -1,0 +1,38 @@
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(25, 97, 102);
+  color: white;
+  align-items: center;
+  margin: 1rem 0.09rem;
+  padding: 0.25rem;
+  border-radius: 15px;
+  box-shadow: 0 2px 8px rgb(4, 109, 151);
+  /* transition: height 5s linear; */
+}
+
+/* .todo-item:hover {
+  height: 120px;
+} */
+
+.todo-item h2 {
+  font-size: 1rem;
+  flex: 1;
+  margin: 0 1rem;
+}
+
+.todo-description {
+  display: flex;
+  flex-flow: column-reverse;
+  gap: 1rem;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.todo-priority {
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: rgb(250, 92, 124);
+}
